@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	width: 100%;
+	background-color: #43281c;
+	font-family: 'Potta One', cursive;
+	overflow: hidden !important;
+}
+.container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.container .clock {
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fbf2c0;
+	font-size: 60px;
+	font-family: 'Potta One', cursive;
+	letter-spacing: 7px;
+}
+@media screen and (max-width: 768px) {
+	.container .clock {
+		font-size: 45px !important;
+	}
+}
+@media screen and (max-width: 425px) {
+	.container .clock {
+		font-size: 30px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.container .clock {
+		font-size: 28px !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.container .clock {
+		font-size: 22px !important;
+	}
+}
